@@ -1,0 +1,114 @@
+
+
+body {
+    background: linear-gradient(to right, #f5f7fa, #e4ecf5);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.card-header h4 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 18px;
+    transition: background 0.2s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+
+.fw-semibold {
+    font-size: 1rem;
+}
+
+
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.table th {
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+    font-size: 0.95rem;
+}
+
+
+.text-success {
+    font-weight: bold;
+}
+
+.text-warning {
+    font-weight: bold;
+}
+
+.text-primary {
+    font-weight: bold;
+}
+
+
+#buscador {
+    background-color: #fdfdfd;
+}
+
+
+#listaTareas {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+
+#listaTareas::-webkit-scrollbar {
+    width: 8px;
+}
+
+#listaTareas::-webkit-scrollbar-thumb {
+    background: #b0b7c3;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .d-flex.flex-wrap.gap-2 {
+        flex-direction: column;
+    }
+}
